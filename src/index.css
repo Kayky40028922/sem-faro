@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    height: 600px;
+    width: 300px;
+    background-color: black;
+    border-radius: 20px;
+}
+.areaum{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.areadois{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.areatres{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vermelho{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.amarelo{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.verde{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.dois img{
+    display: none;
+}
+.dois h1{
+    display: none;
+}
+.a, .b, .c{
+    width: 400px;
+    height: 400px;
+}
